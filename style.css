@@ -10,8 +10,12 @@ body{
 
 .bg-image{
     background-image: url("netflix_bg.jpg");
-    background-color: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
     background-size: cover;
+    height: 712px;
+}
+
+.overlay{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
     height: 712px;
 }
 
@@ -237,6 +241,9 @@ ul li a{
 @media (min-width:250px) and (max-width:400px) {
     .bg-image{
         height: 600px;
+    }
+    .overlay{
+         height: 600px;
     }
 
     .navbar{
@@ -471,6 +478,9 @@ ul li a{
 
     .bg-image{
         height: 600px;
+    }
+    .overlay{
+         height: 600px;
     }
 
     footer{
@@ -751,6 +761,9 @@ ul li a{
 
     ul li a{
         padding: 40px;    
+    }
+    .foot-lang{
+        margin-left: 7px;
     }
 
 }
